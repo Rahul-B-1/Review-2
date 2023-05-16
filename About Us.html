@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About Us</title>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="image-section">
+                <img src="https://images.sampletemplates.com/wp-content/uploads/2021/06/Printing-Company-Profile.jpg">
+            </div>
+            <div class="content-section">
+                <div class="title">
+                    <h1>Company Profile</h1>
+                </div>
+                <div class="content">
+                    <h3>We are working nearly 15 years in this field</h3>
+                    <p>Maple Cards, was established in the year 2005 by Mr.Rahul.B We are one of the fastest commercial offset printers in the heart of Coimbatore City. We are passionate about the finest, most cost-effective and timely printing services and promotional items available anywhere in the country. Up-to-date on technology, we create beautiful printed projects, with an easy and pain-free workflow system. We pride ourselves on our commitment to great customer service. We have Won 14 National Awards for Excellence in Printing.
+                        Maple Cards, a state-of-the-art technology printers with 10 colour offset printing machine in the feather, for the first time in Tamilnadu. Our Offset Printing makes use of advance technology to produce best quality results.<span id="dots"><b>larger volumes offset printing is the most effective and efficient way to produce unrivaled quality and consistency compared with other printing methods. We can produce a large range of work from business cards, envelopes and stationery, to brochures and catalogues, point of sale material and packaging Maple cards - Coimbatore, our focus is on producing excellent results that meet and exceed our customers' expectations. We use only the top quality materials and state-of-the-art equipments, including large and small format Komari Lithron , Rayobi presses & Amskay CTCP in pre-press. Our highly-trained professional staff uses the latest technology to ensure that every job is completed according to specifications, on time and with unfailing attention to quality control at every point of production. At Maple cards, we strive to the fact that, with the production of your printing requirements, we are answerable for your prestige and standing in the industry. Hence, every bit of effort goes into making the product comparable to world class standard.
+                            We are proud of the success we've achieved… and we continue to look for ways to become even better. In a printing facility, cleanliness can mean the difference between a great print job and a flawed one.</span><span id="invisible-text">In larger volumes offset printing is the most effective and efficient way to produce unrivaled quality and consistency compared with other printing methods. We can produce a large range of work from business cards, envelopes and stationery, to brochures and catalogues, point of sale material and packaging Maple cards - Coimbatore, our focus is on producing excellent results that meet and exceed our customers' expectations. We use only the top quality materials and state-of-the-art equipments, including large and small format Komari Lithron , Rayobi presses & Amskay CTCP in pre-press. Our highly-trained professional staff uses the latest technology to ensure that every job is completed according to specifications, on time and with unfailing attention to quality control at every point of production. At Maple cards, we strive to the fact that, with the production of your printing requirements, we are answerable for your prestige and standing in the industry. Hence, every bit of effort goes into making the product comparable to world class standard.
+                        We are proud of the success we've achieved… and we continue to look for ways to become even better. In a printing facility, cleanliness can mean the difference between a great print job and a flawed one.</span></b></p>
+                    <button id="btn" onclick="ReadMoreLess()">Read More</button>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        function ReadMoreLess(){
+            var dots = document.getElementById("dots");
+            var invisibleText = document.getElementById("invisible-text");
+            var btnText = document.getElementById("btn");
+            if(dots.style.display != "none")
+            {
+                dots.style.display = "none"
+                invisibleText.style.diaplay = "inline"
+                btnText.innerHTML = "Read more"
+            }
+            else{
+                dots.style.display = "inline"
+                invisibleText.style.diaplay = "none"
+                btnText.innerHTML = "Read Less"
+            }
+        }
+    </script>
+</body>
+</html>
