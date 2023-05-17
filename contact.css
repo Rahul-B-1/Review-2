@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: url(https://img.freepik.com/free-vector/fall-season-background-vector-with-maple-leaves_53876-118206.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 950px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: url(https://img.freepik.com/free-vector/fall-season-background-vector-with-maple-leaves_53876-118206.jpg);
+    background-repeat: no-repeat;
+    background-size: 650px 475px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+  }
+  
+  .contact-info i {
+    margin-right: 5px;
+  }
